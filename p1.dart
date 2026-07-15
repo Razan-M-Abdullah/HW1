@@ -1,5 +1,7 @@
 void main() {
-  List<int> myList = [8, 9, 7, 6, 5, 4];
-  List<int> newList = [...myList, 7, 8];
-  print(newList.toList());
+  int distance = 25;
+  int speed = 40;
+  print(
+    "Time taken to reach the office in minutes: ${(distance / speed) * 60} minutes",
+  );
 }
